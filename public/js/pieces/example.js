@@ -32,7 +32,7 @@ function setup() {
   noiseSeed(seed);
 
   // Create the variable values.
-  const numCircles = 50;
+  const numCircles = random(20,80);
   const padding = width/25;
 
   // Define the grid area as the width of the canvas minus the padding.
